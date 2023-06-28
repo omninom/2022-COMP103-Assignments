@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=HospitalERCore
+comment0.text=\r\n\ Simple\ Simulation\ of\ a\ Hospital\ ER\r\n\ \r\n\ The\ Emergency\ room\ has\ a\ waiting\ room\ and\ a\ treatment\ room\ that\ has\ a\ fixed\r\n\ \ set\ of\ beds\ for\ examining\ and\ treating\ patients.\r\n\ \r\n\ When\ a\ patient\ arrives\ at\ the\ emergency\ room,\ they\ are\ immediately\ assessed\ by\ the\r\n\ \ triage\ team\ who\ determines\ the\ priority\ of\ the\ patient.\r\n\r\n\ They\ then\ wait\ in\ the\ waiting\ room\ until\ a\ bed\ becomes\ free,\ at\ which\ point\r\n\ they\ go\ from\ the\ waiting\ room\ to\ the\ treatment\ room.\r\n\r\n\ When\ a\ patient\ has\ finished\ their\ treatment,\ they\ leave\ the\ treatment\ room\ and\ are\ discharged,\r\n\ \ at\ which\ point\ information\ about\ the\ patient\ is\ added\ to\ the\ statistics.\ \r\n\r\n\ \ READ\ THE\ ASSIGNMENT\ PAGE\!\r\n
+comment1.params=arguments
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Construct\ a\ new\ HospitalERCore\ object,\ setting\ up\ the\ GUI,\ and\ resetting\r\n
+comment2.params=
+comment2.target=void\ setupGUI()
+comment2.text=\r\n\ Set\ up\ the\ GUI\:\ buttons\ to\ control\ simulation\ and\ sliders\ for\ setting\ parameters\r\n
+comment3.params=usePriorityQueue
+comment3.target=void\ reset(boolean)
+comment3.text=\r\n\ Reset\ the\ simulation\:\r\n\ \ stop\ any\ running\ simulation,\r\n\ \ reset\ the\ waiting\ and\ treatment\ rooms\r\n\ \ reset\ the\ statistics.\r\n
+comment4.params=
+comment4.target=void\ run()
+comment4.text=\r\n\ Main\ loop\ of\ the\ simulation\r\n
+comment5.params=
+comment5.target=void\ reportStatistics()
+comment5.text=\r\n\ Report\ summary\ statistics\ about\ all\ the\ patients\ that\ have\ been\ discharged.\r\n\ (Doesn't\ include\ information\ about\ the\ patients\ currently\ waiting\ or\ being\ treated)\r\n\ The\ run\ method\ should\ have\ been\ recording\ various\ statistics\ during\ the\ simulation.\r\n
+comment6.params=
+comment6.target=void\ redraw()
+comment6.text=\r\n\ Redraws\ all\ the\ departments\r\n
+comment7.params=
+comment7.target=int\ randomPriority()
+comment7.text=\ \r\n\ Returns\ a\ random\ priority\ 1\ -\ 3\r\n\ Probability\ of\ a\ priority\ 1\ patient\ should\ be\ probPri1\r\n\ Probability\ of\ a\ priority\ 2\ patient\ should\ be\ probPri2\r\n\ Probability\ of\ a\ priority\ 3\ patient\ should\ be\ (1-probPri1-probPri2)\r\n
+numComments=8

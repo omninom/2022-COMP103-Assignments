@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Town
+comment1.params=name
+comment1.target=Town(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.util.Set\ getNeighbours()
+comment4.params=node
+comment4.target=void\ addNeighbour(Town)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Cell
+comment0.text=\ \r\n\ A\ Cell\ is\ a\ single\ square\ in\ a\ Sokoban\ game.\r\n\ It\ can\ be\ one\ of\ five\ things\:\r\n\ \ an\ "empty"\ cell\r\n\ \ a\ "wall"\ \r\n\ \ a\ cell\ with\ a\ "box"\ \r\n\ \ a\ cell\ with\ a\ "shelf"\ \r\n\ \ a\ cell\ with\ a\ "box\ on\ a\ shelf"\r\n\ It\ has\ several\ useful\ methods\ \r\n
+comment1.params=t
+comment1.target=Cell(java.lang.String)
+comment1.text=\r\n\ Constructor.\ The\ type\ must\ be\ one\ of\ the\ valid\ types\ of\ cells.\ \r\n
+comment2.params=
+comment2.target=boolean\ isEmptyShelf()
+comment2.text=\r\n\ Is\ this\ cell\ a\ shelf\ without\ a\ box?\ \r\n
+comment3.params=
+comment3.target=boolean\ hasBox()
+comment3.text=\r\n\ Does\ this\ cell\ have\ a\ box\ in\ it?\ \r\n
+comment4.params=
+comment4.target=boolean\ isFree()
+comment4.text=\r\n\ Is\ the\ cell\ is\ free\ to\ move\ onto\ (not\ a\ wall\ or\ a\ box)\r\n
+comment5.params=
+comment5.target=void\ removeBox()
+comment5.text=\r\n\ Change\ the\ type\ of\ the\ cell\ to\ not\ have\ a\ box\ in\ it\ \ \r\n
+comment6.params=
+comment6.target=void\ addBox()
+comment6.text=\r\n\ Change\ the\ type\ of\ the\ cell\ to\ contain\ a\ box\r\n
+comment7.params=left\ top\ size
+comment7.target=void\ draw(double,\ double,\ double)
+comment7.text=\r\n\ Draw\ the\ cell\ at\ the\ specified\ position\ and\ size\r\n
+numComments=8

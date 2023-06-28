@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Permutations
+comment0.text=\ \r\n\ \ Compute\ all\ permutations\ of\ a\ list\ of\ Strings\r\n\r\n\ \ You\ only\ have\ to\ write\ one\ method\ -\ the\ extendPermutations(...)\ method\r\n\ \ which\ does\ the\ recursive\ search.\ \ \r\n
+comment1.params=items
+comment1.target=java.util.List\ findPermutations(java.util.Set)
+comment1.text=\r\n\ Constructs\ a\ list\ of\ all\ permutations\ of\ the\ given\ items\r\n\ by\ calling\ a\ recursive\ method,\ passing\ in\ a\ set\ of\ the\ items\ to\ permute\r\n\ and\ an\ empty\ list\ to\ build\ up.\r\n\ Prints\ the\ total\ number\ of\ permutations\ in\ the\ message\ window\ (with\r\n\ \ UI.printMessage(...);\r\n
+comment2.params=remainingItems\ permutationSoFar\ allPermutations
+comment2.target=void\ extendPermutation(java.util.Set,\ java.util.Stack,\ java.util.List)
+comment2.text=\r\n\ Recursive\ method\ to\ build\ all\ permutations\ possible\ by\ adding\ the\r\n\ \ remaining\ items\ on\ to\ the\ end\ of\ the\ permutation\ built\ up\ so\ far\ \r\n\ If\ there\ are\ no\ remaining\ items,\ then\ permutationSoFar\ is\ complete,\r\n\ \ \ \=>\ add\ a\ copy\ of\ the\ permutation\ to\ allPermutations.\r\n\ Otherwise,\r\n\ \ for\ each\ of\ the\ remaining\ items,\r\n\ \ \ \ \ extend\ the\ permutationSoFar\ with\ the\ item,\ and\ do\ a\ recursive\ call\ to\ extend\ it\ more\:\r\n\ \ \ \ \ -\ remove\ the\ item\ from\ remaining\ items\ and\r\n\ \ \ \ \ -\ push\ it\ onto\ the\ permutation\ so\ far,\r\n\ \ \ \ \ -\ do\ the\ recursive\ call,\r\n\ \ \ \ \ -\ pop\ the\ item\ from\ the\ permutation\ so\ far\ and\r\n\ \ \ \ \ -\ put\ it\ back\ into\ the\ remaining\ items.\r\n\r\n\ So\ that\ you\ don't\ run\ out\ of\ memory,\ only\ add\ the\ first\ 10000\ permutations\ to\ the\ allPermutations.\r\n
+comment3.params=
+comment3.target=void\ setupGUI()
+comment3.text=\r\n\ Setup\ GUI\r\n\ Buttons\ to\ run\ permutations\ on\ either\ letters\ or\ words\r\n
+comment4.params=permutations
+comment4.target=void\ printAll(java.util.List)
+comment5.params=str
+comment5.target=java.util.Set\ makeSetOfLetters(java.lang.String)
+comment5.text=\r\n\ Makes\ a\ set\ of\ strings,\ one\ string\ for\ each\ character\ in\ the\ argument\r\n
+comment6.params=str
+comment6.target=java.util.Set\ makeSetOfWords(java.lang.String)
+comment6.text=\r\n\ Makes\ a\ set\ of\ strings,\ one\ string\ for\ each\ word\ in\ the\ argument\r\n
+comment7.params=
+comment7.target=void\ reportCounter()
+comment7.text=Report\ the\ value\ of\ counter\ in\ the\ message\ area
+comment8.params=arguments
+comment8.target=void\ main(java.lang.String[])
+numComments=9

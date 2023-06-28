@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=TrainLine
+comment0.text=\r\n\ TrainLine\r\n\ Information\ about\ a\ Train\ Line.\r\n\ Note,\ we\ treat\ the\ outbound\ train\ line\ as\ different\ from\ the\ inbound\ line.\r\n\ This\ means\ that\ the\ Johnsonville-Wellington\ line\ is\ a\ different\ train\ line\ from\ \r\n\ the\ Wellington-Johnsonville\ line.\r\n\ Although\ they\ have\ the\ same\ stations,\ the\ stations\ will\ be\ in\ opposite\ orders.\r\n\r\n\ A\ TrainLine\ contains\ \r\n\ -\ the\ name\ of\ the\ TrainLine\ (originating\ station\ -\ terminal\ station,\ eg\ Wellington-Melling)\r\n\ -\ The\ list\ of\ stations\ on\ the\ line\r\n\ -\ a\ list\ of\ TrainServices\ running\ on\ the\ line\ (eg\ the\ 10\:00\ am\ service\ from\ Upper-Hutt\ to\ Wellington)\r\n\ \ \ (in\ order\ of\ time\ -\ services\ earlier\ in\ the\ list\ are\ always\ earlier\ times\ (at\ any\ station)\ than\ later\ services\ \ )\r\n
+comment1.params=name
+comment1.target=TrainLine(java.lang.String)
+comment2.params=station
+comment2.target=void\ addStation(Station)
+comment2.text=\r\n\ Add\ a\ Station\ to\ the\ list\ of\ Stations\ on\ this\ line\r\n
+comment3.params=train
+comment3.target=void\ addTrainService(TrainService)
+comment3.text=\r\n\ Add\ a\ TrainService\ to\ the\ list\ of\ TrainServices\ for\ this\ line\r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment5.params=
+comment5.target=java.util.List\ getStations()
+comment6.params=
+comment6.target=java.util.List\ getTrainServices()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ String\ contains\ name\ of\ the\ train\ line\ name\ plus\ number\ of\ stations\ and\ number\ of\ services\r\n
+numComments=8

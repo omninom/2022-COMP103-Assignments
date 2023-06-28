@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=BusNetworks
+comment1.params=filename
+comment1.target=void\ loadNetwork(java.lang.String)
+comment1.text=\ CORE\r\n\ Loads\ a\ network\ of\ towns\ from\ a\ file.\r\n\ Constructs\ a\ Set\ of\ Town\ objects\ in\ the\ busNetwork\ field\r\n\ Each\ town\ has\ a\ name\ and\ a\ set\ of\ neighbouring\ towns\r\n\ First\ line\ of\ file\ contains\ the\ names\ of\ all\ the\ towns.\r\n\ Remaining\ lines\ have\ pairs\ of\ names\ of\ towns\ that\ are\ connected.\r\n
+comment2.params=
+comment2.target=void\ printNetwork()
+comment2.text=\ \ CORE\r\n\ Print\ all\ the\ towns\ and\ their\ neighbours\:\r\n\ Each\ line\ starts\ with\ the\ name\ of\ the\ town,\ followed\ by\r\n\ \ the\ names\ of\ all\ its\ immediate\ neighbours,\r\n
+comment3.params=town
+comment3.target=java.util.Set\ findAllConnected(Town)
+comment3.text=\ COMPLETION\r\n\ Return\ a\ set\ of\ all\ the\ nodes\ that\ are\ connected\ to\ the\ given\ node.\r\n\ Traverse\ the\ network\ from\ this\ node\ in\ the\ standard\ way,\ using\ a\r\n\ visited\ set,\ and\ then\ return\ the\ visited\ set\r\n
+comment4.params=name
+comment4.target=void\ printReachable(java.lang.String)
+comment4.text=\ \ COMPLETION\r\n\ Print\ all\ the\ towns\ that\ are\ reachable\ through\ the\ network\ from\r\n\ the\ town\ with\ the\ given\ name.\r\n\ Note,\ do\ not\ include\ the\ town\ itself\ in\ the\ list.\r\n
+comment5.params=
+comment5.target=void\ printConnectedGroups()
+comment5.text=\ \ COMPLETION\r\n\ Print\ all\ the\ connected\ sets\ of\ towns\ in\ the\ busNetwork\r\n\ Each\ line\ of\ the\ output\ should\ be\ the\ names\ of\ the\ towns\ in\ a\ connected\ set\r\n\ Works\ through\ busNetwork,\ using\ findAllConnected\ on\ each\ town\ that\ hasn't\r\n\ yet\ been\ printed\ out.\r\n
+comment6.params=
+comment6.target=void\ setupGUI()
+comment6.text=\r\n\ Set\ up\ the\ GUI\ (buttons\ and\ mouse)\r\n
+comment7.params=arguments
+comment7.target=void\ main(java.lang.String[])
+numComments=8
